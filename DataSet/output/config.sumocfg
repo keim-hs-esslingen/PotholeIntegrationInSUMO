@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sumoConfiguration>
+  <input>
+    <net-file value = 'net.net.xml' />
+    <route-files value = 'gpsTrackCorrected.rou.xml' />
+    <additional-files value="potholes.poly.xml"/>
+  </input>
+  <time>
+    <step-length value="0.1"/>
+  </time>
+  <gui_only>
+    <gui-settings-file value = 'osm.view.xml' />
+  </gui_only>
+  <report>
+    <collision.action value = 'warn' />
+  </report>
+</sumoConfiguration>

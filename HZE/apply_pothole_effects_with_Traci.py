@@ -10,7 +10,7 @@ import time
 NET_FILE = os.path.abspath("PotholeIntegrationInSUMO/HZE/osm.net.xml.gz")
 POTHOLE_FILE = os.path.abspath("PotholeIntegrationInSUMO/HZE/potholes.data.json")
 SUMO_CONFIG = os.path.abspath("PotholeIntegrationInSUMO/HZE/osm.sumocfg")
-REAL_WORLD_WITH_SPEED = False
+REAL_WORLD_WITH_SPEED = False  # set speed before passing the pothole to speed from pothole file mean_speed variable not necessary on fake data
 ONCE_PER_POTHOLE = False
 NEXT_POTHOLE = ""
 start_vehicle_id = "veh10"  ##vehicle of interest (HZE car route)
@@ -21,7 +21,7 @@ start_vehicle_id = "veh10"  ##vehicle of interest (HZE car route)
 #     "PotholeIntegrationInSUMO/DataSet/output/potholesCorrection.json"
 # )
 # SUMO_CONFIG = os.path.abspath("PotholeIntegrationInSUMO/DataSet/output/config.sumocfg")
-# REAL_WORLD_WITH_SPEED = True
+# REAL_WORLD_WITH_SPEED = False # set speed before passing the pothole to speed from pothole file mean_speed variable not necessary on fake data, mean speed might be part of a data set
 # ONCE_PER_POTHOLE = False
 # NEXT_POTHOLE = ""
 # start_vehicle_id = "veh1"  ##vehicle of interest (real car route)
@@ -32,7 +32,7 @@ start_vehicle_id = "veh10"  ##vehicle of interest (HZE car route)
 #     "PotholeIntegrationInSUMO/HZE/Testing/potholes.data.json"
 # )
 # SUMO_CONFIG = os.path.abspath("PotholeIntegrationInSUMO/HZE/Testing/osm.sumocfg")
-# REAL_WORLD_WITH_SPEED = False
+# REAL_WORLD_WITH_SPEED = False # set speed before passing the pothole to speed from pothole file mean_speed variable not necessary on fake data
 # ONCE_PER_POTHOLE = False
 # NEXT_POTHOLE = ""
 # start_vehicle_id = "veh10"  ##vehicle of interest (HZE car route)
@@ -40,7 +40,7 @@ start_vehicle_id = "veh10"  ##vehicle of interest (HZE car route)
 
 ######### simulation variables
 ### evaluation
-EVALUATION_PATH = os.path.abspath("Evaluation")
+EVALUATION_PATH = os.path.abspath("PotholeIntegrationInSUMO/Evaluation")
 NO_EFFECT_APPLIED = False
 ### test for calculations
 WITH_CALCULATION = False

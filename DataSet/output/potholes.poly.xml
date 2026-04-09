@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<additional>
+  <poly id="pothole0" type="pothole" color="#FFA600" fill="1" layer="5" shape="633.23,1071.81 632.06,1071.32 632.25,1070.86 633.42,1071.34" />
+  <poly id="potholeAtJunction1" type="pothole" color="#48FF00" fill="1" layer="5" shape="579.39,1048.75 581.28,1048.75 581.28,1049.25 579.39,1049.25" />
+  <poly id="pothole2" type="pothole" color="#48FF00" fill="1" layer="5" shape="420.53,914.68 421.08,913.04 421.55,913.20 421.00,914.84" />
+  <poly id="pothole3" type="pothole" color="#FFA600" fill="1" layer="5" shape="443.05,847.46 443.76,845.43 444.24,845.60 443.52,847.63" />
+  <poly id="pothole4" type="pothole" color="#FFA600" fill="1" layer="5" shape="453.47,817.99 454.15,816.05 454.63,816.21 453.94,818.16" />
+  <poly id="pothole5" type="pothole" color="#48FF00" fill="1" layer="5" shape="457.35,807.02 458.14,804.78 458.61,804.95 457.82,807.18" />
+  <poly id="pothole6" type="pothole" color="#FFA600" fill="1" layer="5" shape="465.21,784.79 465.97,782.63 466.44,782.80 465.68,784.95" />
+  <poly id="pothole7" type="pothole" color="#48FF00" fill="1" layer="5" shape="522.42,170.66 521.14,170.54 521.19,170.04 522.46,170.16" />
+  <poly id="potholeAtJunction8" type="pothole" color="#48FF00" fill="1" layer="5" shape="431.86,220.50 433.78,220.50 433.78,221.00 431.86,221.00" />
+  <poly id="pothole9" type="pothole" color="#48FF00" fill="1" layer="5" shape="413.81,218.97 411.83,218.77 411.88,218.27 413.86,218.48" />
+  <poly id="pothole10" type="pothole" color="#48FF00" fill="1" layer="5" shape="379.66,273.39 380.85,273.51 380.80,274.01 379.60,273.88" />
+  <poly id="potholeAtJunction11" type="pothole" color="#48FF00" fill="1" layer="5" shape="392.11,274.71 393.39,274.71 393.39,275.21 392.11,275.21" />
+  <poly id="potholeAtJunction12" type="pothole" color="#FFA600" fill="1" layer="5" shape="419.35,276.63 420.29,276.63 420.29,277.13 419.35,277.13" />
+</additional>
