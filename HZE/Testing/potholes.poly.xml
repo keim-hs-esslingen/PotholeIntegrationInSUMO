@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<additional>
+  <poly id="pothole_test" type="pothole" color="#FF0000" fill="1" layer="5" shape="262.64,1056.61 263.01,1056.27 263.34,1056.64 262.97,1056.98" />
+  <poly id="pothole_green" type="pothole" color="#48FF00" fill="1" layer="5" shape="301.68,1023.27 302.09,1022.98 302.38,1023.39 301.97,1023.68" />
+  <poly id="pothole_yellow" type="pothole" color="#FFA600" fill="1" layer="5" shape="309.71,1017.31 310.12,1017.02 310.41,1017.43 310.00,1017.72" />
+  <poly id="pothole_red" type="pothole" color="#FF0000" fill="1" layer="5" shape="317.87,1011.54 318.28,1011.25 318.57,1011.66 318.16,1011.95" />
+</additional>

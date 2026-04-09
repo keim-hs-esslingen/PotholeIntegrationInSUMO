@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-09-22 16:05:55 by Eclipse SUMO sumo Version 1.24.0
+<net-file value="osm.net.xml.gz" was default, osm.net2.xml has the opposite  ,pseudoVehicle.rou.xml potholes.poly.xml,osm.passenger.trips2.xml rouOnly32_33/>
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net2.xml"/>
+        <route-files value="osm.passenger.trips2.xml"/>
+        <additional-files value="potholes.poly.xml"/>
+    </input>
+    <time>
+        <step-length value="0.1"/>
+    </time>
+    <report>
+        <collision.action value="warn"/>
+    </report>
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
